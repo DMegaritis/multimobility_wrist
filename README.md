@@ -138,5 +138,5 @@ Plain text:
 Megaritis, D. (2025). *Multimobility_Wrist: Algorithms for Digital Mobility Assessment from Wrist-Worn Sensors*. Zenodo. https://doi.org/10.5281/zenodo.16926413
 
 
-## 📢 Acknowledgment
-This work was funded by the Medical Research Council (MRC) Gap Fund award (UKRI/MR/B000091/1).
+## 📢 Funding and Support
+This work was supported by the Medical Research Council (MRC) Gap Fund award (UKRI/MR/B000091/1).
