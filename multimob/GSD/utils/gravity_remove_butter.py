@@ -1,24 +1,49 @@
 import numpy as np
 import pandas as pd
-from scipy.signal import butter, filtfilt
 from mobgap.data_transform import (
-    Resample,
     chain_transformers,
     ButterworthFilter
 )
 
 def gravity_motion_butterworth(data: pd.DataFrame, sampling_rate_hz: float):
     """
-    Separate linear acceleration from gravity using a Butterworth low-pass filter.
+    Separate linear acceleration (motion) from the gravity component using
+    a low-pass Butterworth filter.
 
-    Parameters:
-    raw_data (dict): Dictionary containing raw accelerometer data with keys 'Acc_X', 'Acc_Y', 'Acc_Z'.
-    fs (float): Sampling frequency in Hz (default is 100 Hz).
-    cutoff (float): Cutoff frequency for the low-pass filter (default is 0.25 Hz).
-    order (int): Order of the Butterworth filter (default is 1 as per the paper).
+    This function applies a first-order Butterworth low-pass filter
+    (cutoff frequency = 0.25 Hz) to the input accelerometer signals to
+    estimate the gravity component. The motion component is obtained by
+    subtracting the gravity component from the raw signal.
 
-    Returns:
-    dict: Dictionary containing gravity and motion components for each axis (X, Y, Z) and total motion.
+    Parameters
+    ----------
+    data : pandas.DataFrame
+        Input dataframe containing raw accelerometer signals with the following columns:
+        - 'acc_is' : Acceleration along the **inferior–superior (IS)** axis.
+        - 'acc_ml' : Acceleration along the **medio–lateral (ML)** axis.
+        - 'acc_pa' : Acceleration along the **posterior–anterior (PA)** axis.
+    sampling_rate_hz : float
+        Sampling frequency of the signals in Hertz (Hz).
+
+    Returns
+    -------
+    pandas.DataFrame
+        DataFrame containing the motion component (gravity removed) for each axis:
+        - 'acc_is' : Motion along IS axis.
+        - 'acc_ml' : Motion along ML axis.
+        - 'acc_pa' : Motion along PA axis.
+
+    Raises
+    ------
+    ValueError
+        If one or more required columns ('acc_is', 'acc_ml', 'acc_pa')
+        are missing from the input DataFrame.
+
+    Notes
+    -----
+    - The Butterworth filter is implemented with order=1 and cutoff=0.25 Hz,
+      following the reference used in the original methodology.
+    - Gravity is assumed to dominate frequencies below 0.25 Hz.
     """
 
     # Ensuring required keys exist in data
