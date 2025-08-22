@@ -1,6 +1,6 @@
 # Multimobility_Wrist
 
-[![DOI](https://zenodo.org/badge/DOI/10.XXXX/zenodo.XXXXXXX.svg)](https://doi.org/10.XXXX/zenodo.XXXXXXX)  
+[![DOI](https://zenodo.org/badge/1037389095.svg)](https://doi.org/10.5281/zenodo.16926413)
 
 Python implementations of signal-processing algorithms for validating mobility outcomes from wrist-worn sensors in people with multimorbidity.  
 Includes gait detection, initial contact detection, and stride-length estimation methods.
@@ -130,10 +130,13 @@ If you use this code in your work, please cite the Zenodo record:
   title        = {Multimobility_Wrist: Algorithms for Digital Mobility Assessment from Wrist-Worn Sensors},
   year         = {2025},
   publisher    = {Zenodo},
-  doi          = {10.XXXX/zenodo.XXXXXXX},   # Replace with actual DOI
-  url          = {https://doi.org/10.XXXX/zenodo.XXXXXXX}
+  doi          = {10.5281/zenodo.16926413},
+  url          = {https://doi.org/10.5281/zenodo.16926413}
 }
 ```
+Plain text:
+Megaritis, D. (2025). *Multimobility_Wrist: Algorithms for Digital Mobility Assessment from Wrist-Worn Sensors*. Zenodo. https://doi.org/10.5281/zenodo.16926413
 
-📢 Acknowledgment
+
+## 📢 Acknowledgment
 This work was funded by the Medical Research Council (MRC) Gap Fund award (UKRI/MR/B000091/1).
