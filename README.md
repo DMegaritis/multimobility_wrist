@@ -16,7 +16,7 @@ These algorithms were developed and validated as part of the project:
 
 **Real-world gait in people with multiple long-term conditions**
 
-- ISRCTN: ISRCTN25008143(https://www.isrctn.com/ISRCTN25008143)
+- ISRCTN: [ISRCTN25008143](https://www.isrctn.com/ISRCTN25008143)
 - ClinicalTrials.gov: NCT06473168  
 - IRAS: 340676 | CPMS: 61049  
 
