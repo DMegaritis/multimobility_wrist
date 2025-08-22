@@ -2,7 +2,7 @@ from multimob.utils.data_loader import load_imu_data
 from multimob.GSD.GSD4 import MacLeanGSD
 
 """
-This is an example on how to use the MacLean algo to detect gait events while having a compatible output with my pipeline.
+This is an example on how to use the MacLean algo to detect gait events.
 """
 
 imu_data = load_imu_data()

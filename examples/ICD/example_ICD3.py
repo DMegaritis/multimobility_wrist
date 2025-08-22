@@ -1,6 +1,10 @@
 from multimob.ICD.ICD3 import PhamIC
 from multimob.utils.data_loader import load_imu_data
 
+"""
+This is an example on how to use the Pham algo to detect initial contacts.
+"""
+
 imu_data = load_imu_data()
 
 # only one bout of walking
