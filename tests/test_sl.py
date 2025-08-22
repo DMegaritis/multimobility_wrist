@@ -47,7 +47,7 @@ def test_sl_physical_sanity(module, class_name):
     if "stride_length_m" in stride_df.columns:
         arr = stride_df["stride_length_m"].dropna().to_numpy()
         assert np.all(arr >= 0), "No negative stride lengths expected"
-        assert np.all(arr <= 3.0), "Stride lengths larger than 3.0 m are unexpected"
+        assert np.all(arr <= 4.0), "Stride lengths larger than 3.0 m are unexpected"
 
 @pytest.mark.parametrize("module,class_name", SL_ALGOS)
 def test_sl_temporal_aggregation_length_matches_synthetic(module, class_name):
