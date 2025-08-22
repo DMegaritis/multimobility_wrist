@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "multimobility-wrist"
+version = "0.1.0"
+description = "Signal processing algorithms for validating digital mobility from wrist-worn sensors in people with multimorbidity."
+authors = ["Dimitrios Megaritis <dmgrei3@gmail.com>"]
+license = "Apache-2.0"
+readme = "README.md"
+packages = [{ include = "multimob" }]
+include = [
+    "multimob/data/*.csv"
+]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.13"
+mobgap = ">=0.10.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.4"
+numpydoc = "^1.5"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
