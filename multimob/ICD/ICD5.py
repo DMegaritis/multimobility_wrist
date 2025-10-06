@@ -25,8 +25,10 @@ class DucharmeIC:
 
     References
     ----------
-    [1] Ducharme SW, et al. "Validation of an accelerometer-based step detection
-        algorithm in individuals with chronic stroke." Gait & Posture, 2019.
+    [1] Ducharme SW, Lim J, Busa MA, Aguiar EJ, Moore CC, Schuna JM Jr, Barreira TV, Staudenmayer J, Chipkin SR,
+        Tudor-Locke C. A Transparent Method for Step Detection using an Acceleration Threshold.
+        J Meas Phys Behav. 2021 Dec;4(4):311-320. doi: 10.1123/jmpb.2021-0011.
+        Epub 2021 Oct 25. PMID: 36274923; PMCID: PMC9586317.
 
     Attributes
     ----------
