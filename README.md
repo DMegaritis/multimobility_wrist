@@ -20,6 +20,9 @@ These algorithms were developed and validated as part of the project:
 - ClinicalTrials.gov: NCT06473168  
 - IRAS: 340676 | CPMS: 61049  
 
+The algorithms implemented in this repository have been published in Megaritis et al. 2025 [1].
+Their technical validity and performance in participants with multiple long-term conditions are described in detail in the paper.
+
 The work was funded by the Medical Research Council (MRC) Gap Fund award (UKRI/MR/B000091/1).
 
 ---
@@ -140,3 +143,9 @@ Megaritis, D. (2025). *Multimobility_Wrist: Algorithms for Digital Mobility Asse
 
 ## 📢 Funding and Support
 This work was supported by the Medical Research Council (MRC) Gap Fund award (UKRI/MR/B000091/1).
+
+## 📖 References
+[1] Megaritis, D., Alcock, L., Scott, K., Hiden, H., Cereatti, A., Vogiatzis, I., & Del Din, S. (2025). 
+Real-World Wrist-Derived Digital Mobility Outcomes in People with Multiple Long-Term Conditions: A Comparison of Algorithms. 
+Bioengineering, 12(10), 1108. https://doi.org/10.3390/bioengineering12101108
+
