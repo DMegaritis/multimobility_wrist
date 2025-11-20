@@ -101,16 +101,16 @@ class BylemansSL:
         self.max_interpolation_gap_s = 3
 
         if self.version == "wrist":
-            self.BylemansA = 0.35
+            self.BylemansA = 2.3
             self.BylemansB = 0
         elif self.version == "wrist_adaptive":
-            self.BylemansA = 0.35
+            self.BylemansA = 9.15
             self.BylemansB = 0
         elif self.version == "wrist_foot":
-            self.BylemansA = 0.10
+            self.BylemansA = 0.75
             self.BylemansB = (BylemansB if BylemansB is not None else 26.5) * 0.01  # Turning B into meters as the input is in cm
         elif self.version == "wrist_adaptive_foot":
-            self.BylemansA = 0.10
+            self.BylemansA = 3.46
             self.BylemansB = (BylemansB if BylemansB is not None else 26.5) * 0.01  # Turning B into meters as the input is in cm
 
 
