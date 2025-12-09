@@ -50,8 +50,8 @@ class HickeyGSD:
         self.version = version
         self.cwb = cwb
 
-        thresholdupright = 9.5
-        thresholdstill = 0.1
+        thresholdupright = 9.5 # in m/s^2 already
+        thresholdstill = 0.1 * 9.81
 
         self.data = None
         self.gs_list_ = None
