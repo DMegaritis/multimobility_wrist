@@ -138,7 +138,7 @@ If you use this code in your work, please cite the Zenodo record:
 }
 ```
 Plain text:
-Megaritis, D. (2025). *Multimobility_Wrist: Algorithms for Digital Mobility Assessment from Wrist-Worn Sensors*. Zenodo. https://doi.org/10.5281/zenodo.16926413
+Megaritis, D. (2025). *Multimobility_Wrist: Algorithms for Digital Mobility Assessment from Wrist-Worn Sensors* [Computer Software]. https://doi.org/10.5281/zenodo.16926413 URL: https://github.com/DMegaritis/multimobility_wrist
 
 
 ## 📢 Funding and Support
