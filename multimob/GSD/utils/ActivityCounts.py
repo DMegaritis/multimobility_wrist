@@ -14,8 +14,9 @@ class ActivityCounts:
 
     References
     ----------
-    [1] Brond, J. C., et al. "Referencing the study on ActiGraph activity counts."
-        Available at: https://www.ncbi.nlm.nih.gov/pubmed/28604558
+    [1] Brønd JC, Andersen LB, Arvidsson D. Generating ActiGraph Counts from Raw Acceleration Recorded by an Alternative Monitor.
+    Med Sci Sports Exerc. 2017 Nov;49(11):2351-2360. doi: 10.1249/MSS.0000000000001344. PMID: 28604558.
+
     """
 
     data = None
