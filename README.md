@@ -1,3 +1,8 @@
+> **⚠️ IMPORTANT UPDATE:** This repository contains reference algorithms only. 
+> For full pipelines and novel algorithm releases, please use our actively maintained package: 
+**https://github.com/DMegaritis/multigait**
+
+
 # Multimobility_Wrist
 
 [![DOI](https://zenodo.org/badge/1037389095.svg)](https://doi.org/10.5281/zenodo.16926413)
