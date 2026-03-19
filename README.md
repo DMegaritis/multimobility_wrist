@@ -1,4 +1,4 @@
-> **⚠️ IMPORTANT UPDATE:** This repository contains reference algorithms only. 
+> **⚠️ IMPORTANT UPDATE:** This repository contains reference algorithm implementations only. 
 > For full pipelines and novel algorithm releases, please use our actively maintained package: 
 **https://github.com/DMegaritis/multigait**
 
@@ -11,7 +11,6 @@ Python implementations of signal-processing algorithms for validating mobility o
 Includes gait detection, initial contact detection, and stride-length estimation methods.
 
 This repository contains **algorithm implementations only**, along with examples and tests.  
-A future repository will provide full pipelines and aggregation functions with minimal dependencies.
 
 ---
 
