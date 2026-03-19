@@ -25,6 +25,15 @@ Their technical validity and performance in participants with multiple long-term
 
 The work was funded by the Medical Research Council (MRC) Gap Fund award (UKRI/MR/B000091/1).
 
+**Production Pipelines**
+
+All algorithms in this repository have been implemented into production-ready pipelines that are actively enhanced and maintained. 
+Please use the Python package below, which is actively maintained with several updates and novel algorithms planned:
+
+**https://github.com/DMegaritis/multigait**
+
+The work was funded by the Medical Research Council (MRC) Gap Fund award (UKRI/MR/B000091/1).
+
 ---
 
 ## ⚙️ Installation
